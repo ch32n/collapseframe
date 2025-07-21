@@ -1,5 +1,3 @@
-set auto_path {C:/Tcl/lib/mylib C:/Tcl/ActiveTcl/lib/tcl8.6 C:/Tcl/ActiveTcl/lib}
-
 package require collapseframe
 
 proc createExampleEntry {path text args} {
@@ -31,10 +29,3 @@ createExampleEntry $CollapseFrame Layout    -font LargerBold
 createExampleEntry $CollapseFrame Neighbors -font LargerBold
 createExampleEntry $CollapseFrame Maps maps -font LargerBold
 createExampleEntry $CollapseFrame Junk junk -font LargerBold
-
-
-# collapseW::create .colFrame
-# .colFrame add ?name? ?-text text? ?-font font?
-
-#.colFrame: delete, add, entryconfigure, getentrynames, getentry
-# entryObj: cget, configure, getframe, open, close, toggle
