@@ -23,9 +23,9 @@ Create megawidget
 
 **pathName** add *?name?* ?**-text** *text*? ?**-font** *font*?<br>
 Creates entry in collapseframe widget
-* name: name is optional. If not specified it is dynamicaly generated.
+* name: name is optional. If not specified it is dynamically generated.
 * font: Font to use for label text
-* text: Specifies a text string to be displayed inside the widge
+* text: Specifies a text string to be displayed inside the widget
 
 **pathName** getentrynames<br>
 returns entry names
